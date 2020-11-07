@@ -23,7 +23,7 @@ class FirstSpringApplicationTests {
 		assert(controllers.helloWorld("test")); //passes "test" to controllers
 		assert(controllers.names.contains("test")); //checks whether has been correctly added.
 		assertEquals(7, controllers.x); //checks if x is equal to 7
-		assertTrue(controllers.x > 5);
+		assertTrue(controllers.x > 6);
 		assertFalse(controllers.x < 5);
 
 	}
