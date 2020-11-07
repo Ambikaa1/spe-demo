@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> //this says we are using this website as our base for th.
+<head>
+    <meta charset="UTF-8">
+    <title>week 4</title>
+</head>
+<body>
+<h1> Hello World</h1>
+<p th:text="'hello ' + ${username}"></p> //here we print out hello with the username the model gave us, using the thymeleaf dependency.
+</body>
+</html>
